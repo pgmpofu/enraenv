@@ -1,0 +1,208 @@
+html body {
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+video {
+  height: auto;
+  width: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-appearance: none;
+  background: rgba(1, 1, 1, 1);
+}
+
+iframe {
+  position: absolute;
+  top: 0%;
+  left : 0%;
+  border: 0;
+}
+
+button {
+  border: 0;
+  background-color: #33cc33;
+}
+
+input {
+  margin: 0;
+}
+
+div {
+  display: inline-block;;
+}
+
+input {
+  border: 1px #33cc33 solid;
+  border-radius: 2px;
+  font-family: 'Oxygen' sans-serif;
+  text-align: left;
+  font-style: italic;
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  font-family: 'Oxygen' sans-serif;
+  color: #fff;
+  top: 70%;
+  font-size: 70px;
+  font-style: normal;
+  font-family: 'Oxygen' sans-serif;
+  font-weight: bold;
+}
+
+.social-media-icon {
+  position: absolute;
+  top: 2%;
+  color: #33cc33;
+}
+
+.envelope-icon {
+  position: absolute;
+  top: 90%;
+  left: 66%;
+  color: #33cc33;
+  margin: 0;
+}
+
+.fa-facebook-square {
+  left: 85%;
+}
+
+.fa-twitter-square {
+  left: 90%;
+}
+
+.fa-linkedin-square {
+  left: 95%;
+}
+
+.timer {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 60px;
+  left: 2%;
+  margin: 0;
+  z-index: 1;
+}
+
+.days {
+    top: 20%;
+}
+
+.hours {
+    top: 40%;
+}
+
+.minutes {
+    top: 60%;
+}
+
+.seconds {
+    top: 80%;
+}
+
+.demarcation {
+  position: absolute;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Oxygen' sans-serif;
+  left: 2%;
+  color: #fff;
+  width: 5%;
+  margin: 0;
+}
+
+.demarcation-days {
+  top: 28%;
+}
+
+.demarcation-hours {
+  top: 48%;
+}
+
+.demarcation-mins {
+  top: 68%;
+}
+
+.demarcation-sec {
+  top: 88%;
+}
+
+.message {
+  color: #fff;
+  font-family: 'Oxygen' sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+
+@media screen and (max-width: 767px) {
+  .message {
+    top: 110%;
+    left: 15%;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    width: 80%;
+  }
+
+  input {
+    top: 125%;
+    left: 15%;
+    width: 70%;
+  }
+
+  .envelope-icon {
+    top: 125%;
+    left: 85%;
+  }
+
+  .fa-facebook-square {
+    left: 65%;
+  }
+
+  .fa-twitter-square {
+    left: 75%;
+  }
+
+  .fa-linkedin-square {
+    left: 85%;
+  }
+
+  .demarcation-days {
+    top: 32%;
+  }
+
+  .demarcation-hours {
+    top: 52%;
+  }
+
+  .demarcation-mins {
+    top: 72%;
+  }
+
+  .demarcation-sec {
+    top: 92%;
+  }
+
+
+}
