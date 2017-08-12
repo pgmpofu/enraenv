@@ -22,7 +22,7 @@ video {
 iframe {
   position: absolute;
   top: 0%;
-  left : 0%;
+  left: 0%;
   border: 0;
 }
 
@@ -36,7 +36,8 @@ input {
 }
 
 div {
-  display: inline-block;;
+  display: inline-block;
+  ;
 }
 
 input {
@@ -110,19 +111,19 @@ h1 {
 }
 
 .days {
-    top: 20%;
+  top: 20%;
 }
 
 .hours {
-    top: 40%;
+  top: 40%;
 }
 
 .minutes {
-    top: 60%;
+  top: 60%;
 }
 
 .seconds {
-    top: 80%;
+  top: 80%;
 }
 
 .demarcation {
@@ -162,6 +163,16 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
+  input {
+    top: 125%;
+    left: 15%;
+    width: 70%;
+  }
+
+  h1 {
+
+  }
+  
   .message {
     top: 110%;
     left: 15%;
@@ -170,45 +181,29 @@ h1 {
     text-align: center;
     width: 80%;
   }
-
-  input {
-    top: 125%;
-    left: 15%;
-    width: 70%;
-  }
-
   .envelope-icon {
     top: 125%;
     left: 85%;
   }
-
   .fa-facebook-square {
     left: 65%;
   }
-
   .fa-twitter-square {
     left: 75%;
   }
-
   .fa-linkedin-square {
     left: 85%;
   }
-
   .demarcation-days {
     top: 32%;
   }
-
   .demarcation-hours {
     top: 52%;
   }
-
   .demarcation-mins {
     top: 72%;
   }
-
   .demarcation-sec {
     top: 92%;
   }
-
-
 }
