@@ -265,3 +265,7 @@ h1 {
     top: 92%;
   }
 }
+/*Needed to support browsing on Opera Mini devices*/
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+      .class {proprieties}
+ }
