@@ -181,6 +181,7 @@ h1 {
 iframe {
   padding: 16px;
   background-color: transparent;
+  border: none;
 }
 
   .message {
@@ -226,6 +227,7 @@ iframe {
 
   iframe {
     background-color: transparent;
+    border: none;
   }
   .message {
     top: 90%;
@@ -261,6 +263,7 @@ iframe {
 
   iframe {
     background-color: transparent;
+    border: none;
   }
   .envelope-icon {
     left: 75%;
