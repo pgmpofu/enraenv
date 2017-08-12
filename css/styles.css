@@ -180,6 +180,7 @@ h1 {
 
 iframe {
   padding: 16px;
+  background-color: transparent;
 }
 
   .message {
@@ -222,6 +223,10 @@ iframe {
     left: 25%;
     width: 30%;
   }
+
+  iframe {
+    background-color: transparent;
+  }
   .message {
     top: 90%;
     left: 20%;
@@ -252,6 +257,10 @@ iframe {
 @media screen and (min-width: 992px) {
   input {
     width: 30%;
+  }
+
+  iframe {
+    background-color: transparent;
   }
   .envelope-icon {
     left: 75%;
