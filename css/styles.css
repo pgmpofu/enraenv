@@ -83,14 +83,17 @@ h1 {
 
 .fa-facebook-square {
   left: 85%;
+  margin: 8px;
 }
 
 .fa-twitter-square {
   left: 90%;
+  margin: 8px;
 }
 
 .fa-linkedin-square {
   left: 95%;
+  margin: 8px;
 }
 
 .timer {
