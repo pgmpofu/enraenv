@@ -16,7 +16,7 @@ video {
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   -webkit-appearance: none;
-  background: rgba(1, 1, 1, 1);
+  background: rgba(1, 1, 1, 1) no-repeat;
 }
 
 iframe {
@@ -166,24 +166,32 @@ h1 {
   input {
     top: 125%;
     left: 15%;
-    width: 70%;
+    width: 50%;
   }
 
   h1 {
-
+   font-size: 24px;
+   text-align: center;
+   padding: 8px;
+   position: absolute;
+   top: 10%;
+   left: 30%;
   }
-  
+
+iframe {
+  padding: 16px;
+}
+
   .message {
     top: 110%;
     left: 15%;
     font-size: 16px;
     margin: 0;
-    text-align: center;
     width: 80%;
   }
   .envelope-icon {
     top: 125%;
-    left: 85%;
+    left: 65%;
   }
   .fa-facebook-square {
     left: 65%;
@@ -196,6 +204,61 @@ h1 {
   }
   .demarcation-days {
     top: 32%;
+  }
+  .demarcation-hours {
+    top: 52%;
+  }
+  .demarcation-mins {
+    top: 72%;
+  }
+  .demarcation-sec {
+    top: 92%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  input {
+    top: 100%;
+    left: 25%;
+    width: 30%;
+  }
+  .message {
+    top: 90%;
+    left: 20%;
+    font-size: 16px;
+    margin: 0;
+    width: 80%;
+  }
+
+  .envelope-icon {
+    top: 100%;
+    left: 55%;
+  }
+
+  .demarcation-days {
+    top: 30%;
+  }
+  .demarcation-hours {
+    top: 52%;
+  }
+  .demarcation-mins {
+    top: 72%;
+  }
+  .demarcation-sec {
+    top: 92%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  input {
+    width: 30%;
+  }
+  .envelope-icon {
+    left: 75%;
+  }
+
+  .demarcation-days {
+    top: 30%;
   }
   .demarcation-hours {
     top: 52%;
