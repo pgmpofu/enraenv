@@ -19,13 +19,6 @@ video {
   background: rgba(1, 1, 1, 1) no-repeat;
 }
 
-iframe {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  border: 0;
-}
-
 button {
   border: 0;
   background-color: #33cc33;
@@ -58,6 +51,7 @@ h1 {
   color: #fff;
   text-align: center;
   font-family: 'Oxygen' sans-serif;
+  margin: 0;
 }
 
 .overlay {
@@ -178,12 +172,6 @@ h1 {
    left: 30%;
   }
 
-iframe {
-  padding: 16px;
-  background-color: transparent;
-  border: none;
-}
-
   .message {
     top: 110%;
     left: 15%;
@@ -225,10 +213,6 @@ iframe {
     width: 30%;
   }
 
-  iframe {
-    background-color: transparent;
-    border: none;
-  }
   .message {
     top: 90%;
     left: 20%;
@@ -261,10 +245,6 @@ iframe {
     width: 30%;
   }
 
-  iframe {
-    background-color: transparent;
-    border: none;
-  }
   .envelope-icon {
     left: 75%;
   }
