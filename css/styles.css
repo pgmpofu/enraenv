@@ -54,6 +54,12 @@ h1 {
   margin: 0;
 }
 
+button {
+  background: none;
+  border: none;
+  padding: 0px;
+}
+
 .overlay {
   position: absolute;
   z-index: 1;
@@ -157,6 +163,10 @@ h1 {
   position: absolute;
   top: 80%;
   left: 40%;
+}
+
+#email-status {
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {
