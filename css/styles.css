@@ -186,6 +186,10 @@ button {
    left: 30%;
   }
 
+  .timer {
+    font-size: 40px;
+  }
+
   .message {
     top: 110%;
     left: 15%;
