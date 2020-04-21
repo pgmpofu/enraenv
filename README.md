@@ -1,1 +1,1 @@
-This website is a simple HTML, CSS and JavaScript website that has been deployed as a placeholder to the official site which will be launched along with the new vehicle range. View the website at https://pgmpofu.github.io/enraenv/
+A simple static website using HTML, CSS and JavaScript for an electric vehicle manufacturer. View the website at https://pgmpofu.github.io/enraenv/
